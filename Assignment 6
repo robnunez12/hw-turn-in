@@ -26,3 +26,8 @@ FROM match_mast
 WHERE match_no=1
 
 7.
+SELECT COUNT(*)
+FROM goal_details
+WHERE goal_type = 'O'
+
+8.
